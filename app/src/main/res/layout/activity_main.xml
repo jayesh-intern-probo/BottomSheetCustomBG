@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <com.example.custombubble.BottomSheetCustomBG
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:bottomSheetCustomBGLeftPadding="100dp"
+        app:bottomSheetCustomBGRightPadding="100dp"
+        app:bottomSheetCustomBGTopPadding="100dp"
+        app:bottomSheetCustomBGBottomPadding="50dp"
+        app:sideCornerRadius="8dp"
+        app:borderStrokeWidth="2dp"
+        app:pointerMarginFromLeft="30dp"
+        app:pointerWidth="20dp"
+        app:pointerHeight="20dp"
+        app:borderStrokeColor="#FFFFFF"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

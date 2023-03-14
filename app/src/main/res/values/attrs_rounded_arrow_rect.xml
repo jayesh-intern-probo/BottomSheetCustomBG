@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomSheetCustomBG">
+        <attr name="bottomSheetCustomBGLeftPadding" format="dimension"/>
+        <attr name="bottomSheetCustomBGRightPadding" format="dimension"/>
+        <attr name="bottomSheetCustomBGTopPadding" format="dimension"/>
+        <attr name="bottomSheetCustomBGBottomPadding" format="dimension"/>
+        <attr name="pointerWidth" format="dimension"/>
+        <attr name="pointerHeight" format="dimension"/>
+        <attr name="pointerMarginFromLeft" format="dimension"/>
+        <attr name="sideCornerRadius" format="dimension"/>
+        <attr name="borderStrokeWidth" format="dimension"/>
+        <attr name="borderStrokeColor" format="string"/>
+        <attr name="boxFillColor" format="string"/>
+    </declare-styleable>
+</resources>
