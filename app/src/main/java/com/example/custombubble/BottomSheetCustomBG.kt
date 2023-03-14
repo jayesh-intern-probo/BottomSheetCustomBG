@@ -137,6 +137,13 @@ class BottomSheetCustomBG: View {
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
+    fun reArrangePointer(value: Float) {
+        pointerMarginFromLeftSide = value
+        invalidate()
+    }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
         canvasWidth = MeasureSpec.getSize(widthMeasureSpec).toFloat()
